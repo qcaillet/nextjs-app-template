@@ -14,21 +14,22 @@ const About: NextPageWithLayout = () => {
         si nécessaire.
       </p>
       <p>
-        Lors de la navigation entre les pages, nous souhaitons conserver l'état
+        Lors de la navigation entre les pages, nous souhaitons conserver létat
         de la page (valeurs des champs de saisie, position de défilement, etc.)
-        pour une expérience d'application sur une seule page (SPA).
+        pour une expérience d&apos;application sur une seule page (SPA).
       </p>
       <p>
-        Ce modèle de mise en page permettra de conserver l'état car
-        l'arborescence des composants React est conservée entre les transitions
-        de page. Pour préserver l'état, nous devons empêcher l'arborescence des
-        composants React d'être supprimée entre les transitions de page.
+        Ce modèle de mise en page permettra de conserver l&apos;état car
+        l&apos;arborescence des composants React est conservée entre les
+        transitions de page. Pour préserver l&apos;état, nous devons empêcher
+        l&apos;arborescence des composants React d&apos;être supprimée entre les
+        transitions de page.
       </p>
       <h3>essayez</h3>
       <p>
         essayez de saisir du texte dans le champ de recherche de la barre
-        latérale, puis changez de page. Vous remarquerez que l'état du champ de
-        saisie est conservé.
+        latérale, puis changez de page. Vous remarquerez que l&apos;état du
+        champ de saisie est conservé.
       </p>
     </section>
   );
