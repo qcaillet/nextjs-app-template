@@ -1,2 +1,74 @@
-.component {
+.container {
+  margin: 2rem;
+}
+
+.container * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.card__image {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: clamp(18rem, calc(18rem + 2.5vw), 20rem); /* Ajusté la largeur ici */
+  overflow: hidden;
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.8em; /* Ajusté le border-radius ici */
+  background: #faf8f4;
+}
+
+.card__body {
+  padding: 1rem; /* Ajusté le padding ici */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Ajusté le gap ici */
+}
+
+.tag {
+  align-self: flex-start;
+  padding: 0.25em 0.65em; /* Ajusté le padding ici */
+  border-radius: 1em;
+  font-size: 0.75rem; /* Ajusté la taille de police ici */
+  font-weight: 600;
+}
+
+.tag-blue {
+  background: #30b237;
+  color: #fff;
+}
+
+.card__body h4 {
+  font-size: 1.5rem; /* Ajusté la taille de police ici */
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #555555;
+}
+
+.card__footer {
+  display: flex;
+  padding: 1rem; /* Ajusté le padding ici */
+  margin-top: auto;
+}
+
+.user {
+  display: flex;
+  gap: 0.5rem; /* Ajusté le gap ici */
+}
+
+.user__image {
+  border-radius: 50%;
+}
+
+.user__info > small {
+  color: #777;
+  font-size: 0.8rem; /* Ajusté la taille de police ici */
 }
