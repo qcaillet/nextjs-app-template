@@ -1,8 +1,6 @@
 import { ISidebarLayout } from './SidebarLayout';
 
-const base: ISidebarLayout = {
-  sampleTextProp: 'Hello world!',
-};
+const base: ISidebarLayout = {};
 
 export const mockSidebarLayoutProps = {
   base,

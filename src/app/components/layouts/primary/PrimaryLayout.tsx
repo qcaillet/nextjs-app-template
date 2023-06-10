@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import styles from './PrimaryLayout.module.css';
-
 export interface IPrimaryLayout {
   children: React.ReactNode;
 }

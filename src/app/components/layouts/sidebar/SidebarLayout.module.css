@@ -11,29 +11,55 @@
 .nav > a {
   margin: 8px 0;
   text-decoration: none;
-  background: white;
+  background: #ff9500;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 16px;
   padding: 12px 16px;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 0.025em;
-  color: #333;
-  border: 1px solid #eaeaea;
-  transition: all 0.125s ease;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
 }
 
 .nav > a:hover {
-  background-color: #eaeaea;
+  background-color: #ffad33;
+}
+
+.nav > a .icon {
+  margin-right: 8px;
+}
+
+.nav > a .text {
+  flex: 1;
 }
 
 .input {
   margin: 32px 0;
   text-decoration: none;
-  background: white;
+  background: #fff;
   border-radius: 4px;
   border: 1px solid #eaeaea;
   font-size: 14px;
   padding: 8px 16px;
   height: 28px;
+  color: #333;
+}
+
+/* Ajout de styles spécifiques à l'alimentation */
+.nav.alimentation {
+  background-color: #fafafa;
+}
+
+.nav.alimentation > a {
+  background: #79d70f;
+  color: #fff;
+  border-color: #79d70f;
+}
+
+.nav.alimentation > a:hover {
+  background-color: #6acc0b;
 }
